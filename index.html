@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ESports - X</title>
+        <link rel="stylesheet" type="text/css" href="landingpage.css">
+        <link rel="icon" type="image/png" href="logo/phone.png">
+        
+    </head>
+
+    <body>
+        <section>
+            
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="logo/bigbrown.png" class="logo" alt="company logo"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Captains</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="C:\Users\willi\OneDrive\Desktop\important\business\Game Company\Esports-X Website\register.html" target="_blank">login</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textbox">
+                    <h2>Survive, Thrive, Conquer:<br><span>BGMI</span></h2>
+                    <p>Join the ultimate gaming showdown! Experience action-packed battles and fierce competition in our FreeFire and BGMI offline tournament. Witness skilled players strategize, survive, and dominate their way to victory. Don't miss out on this unforgettable gaming extravaganza with state-of-the-art setups and attractive prizes for the champions. Let the games begin!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="imgbox">
+                        <img src="images/pxfuel__1.png" class="starbucks">
+                    </div>
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="images/pxfuel__1.png" onclick="imgSlider('images/pxfuel__1.png');changeCircleColor('url(background/cool-background.png)')"></li>
+                <li><img src="images/1231.png" onclick="imgSlider('images/1231.png');changeCircleColor('url(background/cool-background.png)')"></li>
+                <!-- <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png');changeCircleColor('#d752b1')"></li> -->
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="images/facebook.png"></a></li>
+                <li><a href="#"><img src="images/instagram.png"></a></li>
+                <li><a href="#"><img src="images/twitter.png"></a></li>
+            </ul>
+        </section>
+
+        <script type="text/javascript">
+            
+            function imgSlider(anything){
+                document.querySelector('.starbucks').src = anything;
+            }
+
+            function changeCircleColor(color){
+                const circle = document.querySelector('.circle');
+                circle.style.background = color;
+            }
+        </script>
+    </body>
+</html>
+
+
